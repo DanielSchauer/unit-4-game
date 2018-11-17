@@ -1,0 +1,101 @@
+h1 {
+    background-color: green;
+    color: white;
+    margin-left: 350px;
+    width: 300px
+}
+
+p {
+    color: purple
+}
+
+body {
+    background-color: palegoldenrod
+}
+
+#targetbox {
+    background-color: darkred;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+    
+}
+
+#victory {
+    background-color: darkred;
+    color: white;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+#defeat {
+    background-color: darkred;
+    color: white;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+
+}
+
+#results {
+    background-color: darkred;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+#wins {
+    color: white;
+}
+
+#losses {
+    color: white
+}
+
+#totalscore {
+    background-color: darkcyan;
+    color: white;
+    width: 150px;
+}
+
+#currentscore {
+    background-color: darkcyan;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+#SuperMushroom{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px
+}
+
+#GreenMushroom {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px
+}
+
+#FireFlower {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+
+}
+
+#Starman {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px
+}

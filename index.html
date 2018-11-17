@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+ 
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Mario Powerup Game</title>
+</head>
+<body>
+    <h1 align = "center">Powerup Collector!</h1>
+
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four powerups below. By clicking on a powerup you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</p>
+    <p>The value of each powerup is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change of the values of each powerup.</p>
+
+    <p id="victory">Wins: <span id="wins"></span>0</p>
+    <p id="defeat">Losses: <span id="losses"></span>0</p>
+
+    <p id="results"><span id=""></span>You Win</p>
+
+    <p id="targetbox"><span id="TargetNum"></span>0</p>
+
+
+    <img src="assets/images/Mushroom2.png" class="power-up-image" id="SuperMushroom" alt="SuperMushroom" onclick="">
+    <img src="assets/images/1upshroom.png" class="power-up-image" id="GreenMushroom" alt="1up" onclick="">
+    <img src="assets/images/MK8_Fire_Flower.png" id="FireFlower" class="power-up-image" alt="FireFlower" onclick="">
+    <img src="assets/images/Star.png" id="Starman" alt="Starman" class="power-up-image" onclick="">
+
+    <p id="totalscore">Total Score: <span id=""></span></p>
+    <p id="currentscore"><span id="counter">0</span></p>
+
+    
+</body>
+</html>
